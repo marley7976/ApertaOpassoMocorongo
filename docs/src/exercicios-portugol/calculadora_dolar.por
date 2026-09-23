@@ -9,10 +9,10 @@ programa
         escreva("Olá jovem! Vamos converter Moedas?\n")
         
         escreva("Qual valor INTEIRO em Dólar (US$) você deseja converter? ")
-        leia(valorDolar)
+        leia(valorDolar) // O Portugol já guarda como número inteiro direto aqui!
         
         escreva("Qual é a cotação atual do dólar hoje? ")
-        leia(valorCotacao)
+        leia(valorCotacao) // O Portugol já guarda como número real direto aqui!
         
         // Conta simples de multiplicacao
         resultadoReal = valorDolar * valorCotacao
