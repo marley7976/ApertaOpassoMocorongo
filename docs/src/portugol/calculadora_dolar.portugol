@@ -1,19 +1,23 @@
-// Declaração e entrada de dados
-var cotacao_atual = 5.15
-
 escreva("=========================================")
-escreva("    CALCULADORA DE CONVERSÃO: USD -> BRL ")
+escreva("    CALCULADORA DE CONVERSÃO VARIÁVEL    ")
 escreva("=========================================\n")
 
+// 1. Pergunta e lê a cotação atual do dólar
+escreva("Digite a cotação atual do dólar (ex: 5.15): ")
+var texto_cotacao = leia()
+var cotacao_atual = real(texto_cotacao) // Transforma o texto digitado em número com vírgula/ponto
+
+// 2. Pergunta e lê o valor em dólares
 escreva("Digite o valor inteiro em dólar americano (US$): ")
-var valor_dolar = leia()
+var texto_dolar = leia()
+var valor_dolar = inteiro(texto_dolar) // Transforma o texto em número inteiro
 
-// Conversão (o 'leia' recebe texto, então convertemos para inteiro)
-var valor_real = inteiro(valor_dolar) * cotacao_atual
+// 3. Realiza o cálculo com a cotação digitada
+var valor_real = valor_dolar * cotacao_atual
 
-// Saída de dados
+// 4. Exibe o resultado na tela
 escreva("\n-----------------------------------------")
 escreva("Valor em Dólar: US$ " + valor_dolar + ",00")
-escreva("Cotação utilizada: R$ " + cotacao_atual)
+escreva("Cotação inserida: R$ " + cotacao_atual)
 escreva("Valor convertido para Real: R$ " + valor_real)
 escreva("-----------------------------------------")
