@@ -5,7 +5,7 @@ Este repositório foi criado para armazenar meus estudos práticos de lógica de
 ## 📁 Estrutura do Projeto
 
 * Contém os códigos desenvolvidos durante as aulas de lógica e algoritmos.
-* **Destaque:** `calculadora_dolar.portugol` — Uma calculadora dinâmica que lê a cotação do dia e converte um valor em dólares (US\$) para Reais (R\$).
+* **Destaque:** `calculadora_dolar.por` — Uma calculadora dinâmica que lê a cotação do dia e converte um valor em dólares (US\$) para Reais (R\$).
 
 ## 🛠️ Tecnologias Utilizadas
 
