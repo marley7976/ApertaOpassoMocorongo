@@ -1,0 +1,19 @@
+// Declaração e entrada de dados
+var cotacao_atual = 5.15
+
+escreva("=========================================")
+escreva("    CALCULADORA DE CONVERSÃO: USD -> BRL ")
+escreva("=========================================\n")
+
+escreva("Digite o valor inteiro em dólar americano (US$): ")
+var valor_dolar = leia()
+
+// Conversão (o 'leia' recebe texto, então convertemos para inteiro)
+var valor_real = inteiro(valor_dolar) * cotacao_atual
+
+// Saída de dados
+escreva("\n-----------------------------------------")
+escreva("Valor em Dólar: US$ " + valor_dolar + ",00")
+escreva("Cotação utilizada: R$ " + cotacao_atual)
+escreva("Valor convertido para Real: R$ " + valor_real)
+escreva("-----------------------------------------")
